@@ -11,7 +11,7 @@ background-color: #fff;
 
 h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    background: #c2dae7;
+    background: #9c9fd6;
     color: #fdfcfc;
     height: 10vh;
     margin-top: 0;
@@ -58,7 +58,13 @@ h2{
     background-color: rgba(228, 228, 228, 0.178); */
 }
 
-img{
+.image{
     max-width: 80%;
     border-radius: 50%;
+}
+img{
+    max-width: 110%;
+}
+span{
+    color: #606297;
 }
