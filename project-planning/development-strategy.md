@@ -1,55 +1,63 @@
-# My name is Tahmina
+# Portfolio
 
+---
 
-I came from Afghanistan a year ago, I am living in Antewerpen city. my real address is in a refugee center but I am living with my friend to have stable internet connection for my study which was not available in the center. Although, I am overloaded with multiple things and pressure but I am enjoing learning new things.
+## Data
+
+> describe the data used in your project.
+>
+> - what properties?
+> - what types?
+> - what are array entries like?
+
 
 ---
 
 ## User Story Dependencies
 
-[Story Dependency Diagram]
+<p align="center">
+  <img src="./public/imgs/USDependencies.png" alt="screenshot" width="600">
+</p>
 
 ---
 
 ## WIREFRAME
 
-![figma]
-
----
+<p align="center">
+  <img src="./public/imgs/wireframe.png" alt="screenshot" width="350">
+</p>
 
 ## 0.Setup
 
-- [ ] create repository 
-- [ ] add contributors
-- [ ] turn on github pages
+The project is built on an existing repo,
+so all the HTML and the CSS are already provided. This is why this development strategy is a bit different than usual. 
 
-## 01. Story 01
+---
 
+## 1. Github repos 
 
-## story 02
-
-
-## story 03
-
-### REPO
-
-### 01
-
-### 02 11: Custom Video Player
+**As a user I want to see some examples made by the developer**
 
 
-### 03 15: local Storage
+- This user story is developed on branch `githubapi`.
+- This branch is merged to `master` branch after completion.
 
+- `index.html`
+- `github.css`
+- `getRepo.js` (class)
+- `loadGit.js` (handler)
+- `domListener.js` (listener)
+- `data.js` (data)
+- `init.js` (main entry)
+---
+## 2. Documentation
+**As a user I want to read what this project is about**
 
-### 04 23: Speech Synthesis
+- This user story is developed on branch `master`.
 
+- `README`
+- `backlog.md`
+- `development-strategy.md`
 
-
-### 05 26: Stripe Follow-Along Nav
-
-
-### 06 27: Click and Drag
-
-
-
-### 07 end
+- Logging the functions is also part of the documentation
+- Using JsDoc's comments to document the functions used
